@@ -1,0 +1,70 @@
+/*.fas{
+    margin-left:25px
+}>*/
+
+*{
+    box-sizing: border-box;
+    /*text-align: center;*/
+    margin: 0;
+
+}
+
+.jumbotron{
+    background-image: url('image/Banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width:100vw;
+}
+
+.p{
+    padding: 15px 0;
+    margin: 15;
+}
+
+.h1 {
+    padding:20px 0;
+    margin: 0
+   }
+
+
+/* .div{
+    width: 400px;
+   border: 1px solid #000000;
+
+   }*/
+
+.title{
+    width: 550px;
+    word-wrap: break-word;
+    width:100%;
+    /*display: inline;*/
+
+}
+
+.display-4{
+    width: 750px;
+    word-wrap: break-word;
+    width:100%;
+    /*display: inline;*/
+
+}
+
+
+
+@media (min-width:786px) { 
+
+    .title{
+        width: 550px;
+        word-wrap: break-word;
+        width:60%;
+        /*display: inline;*/
+    
+    }
+    
+
+
+}
+
+
